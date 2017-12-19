@@ -9,17 +9,17 @@ class Form extends Component {
             </div>
             <div className="col-md-6">
                 <form id ="regisForm">
-                <div class="form-row">
-                    <div class="col">
+                <div className="form-row">
+                    <div className="col">
                         <label>Name</label>
-                        <input type="text" class="form-control" placeholder="Firstname"/>
+                        <input type="text" className="form-control" placeholder="Firstname"/>
                     </div>
-                    <div class="col">
+                    <div className="col">
                         <label >Surname</label>
-                        <input type="text" class="form-control" placeholder="Lastname"/>
+                        <input type="text" className="form-control" placeholder="Lastname"/>
                     </div>
                 </div>
-                    <div class="form-group">
+                    <div className="form-group">
                         <label >Email</label>
                         <input type="email" className="form-control"  placeholder="Email"/>
                     </div>
